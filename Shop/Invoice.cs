@@ -27,7 +27,7 @@ namespace Shop
             string text = $"Invoice no. {Id}\n\n";
             foreach(var item in Items)
             {
-                text += $"{item.Id} -- {item.Name}: Rs.{item.Price}\n";
+                text += $"{item.Id} -- {item.Name}: Rs1.{item.Price}\n";
             }
             text += $"\nTotal: Rs.{TotalPrice}";
             return text;
